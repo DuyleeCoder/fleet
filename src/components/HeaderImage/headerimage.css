@@ -1,0 +1,64 @@
+.HeaderImage {
+    padding: 0 120px;
+    position: relative;
+}
+
+.headerImage__imgContainer {
+}
+.headerImgElement {
+    height: 750px;
+    width: calc(100% - 240px);
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    position: absolute;
+    z-index: -1;
+  
+}
+
+.headerImage__content {
+    padding: 80px;
+
+}
+.headerTitle {
+    font-size: 80px;   
+    width: 500px;
+    opacity: 0.8;
+}
+.headerDesc {
+    font-size: 20px;
+
+}
+
+.headerBtnStartYourSearch {
+    background-color: #3080DE;
+    width: 200px;
+    text-align:center;
+    margin-top: 20px;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 100rem;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 300ms;
+}
+.headerBtnStartYourSearch:hover {
+    opacity: 1;
+}
+
+.headerShow {
+    animation: headerShowKeyframe 700ms ease-out ;
+}
+
+@keyframes headerShowKeyframe {
+    from {
+        opacity: 0;
+        transform: translateX(-10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+

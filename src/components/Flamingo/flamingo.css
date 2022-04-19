@@ -1,0 +1,130 @@
+.Flamingo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 150px 200px 0 200px;
+    background-color: rgb(252,252,252);
+
+}
+
+
+.Flamingo h1 {
+    font-size: 45px;
+    opacity: 0.8;
+   
+    max-width: 700px;
+}
+
+.Flamingo>p {
+    font-size: 25px;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+.flamingoMainContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.flamingoContentLeft{
+display: flex;
+flex-direction: column;
+flex: 1;
+}
+
+.flamingoContentBlock {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.flamingoContentBlock>div {
+    margin-bottom: 20px;
+}
+.flamingoBlockCount {
+    background: #ccc;
+    color: #fff;
+width: 35px;
+padding: 2px 0;
+border-radius: 100rem;
+text-align: center;
+cursor: pointer;
+}
+.flamingoBlockHeader {
+    font-weight: 600;
+    font-size: 25px;
+}
+.flamingoBlockDesc {
+    opacity: 0.6;
+}
+.flamingoBtn {
+    background-color: #2172D2;
+    opacity: 0.8;
+    width: 175px;
+    padding: 15px;
+    color: #fff;
+    border-radius: 100rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+.flamingoContentRight{
+    flex: 2;
+    position: relative;
+}
+
+
+.flamingoImage {
+    height: 700px;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    float: right;
+}
+
+.flamingo-blue {
+   background-color:  #80B1EB;
+}
+
+.flamingo-green {
+   background-color:  #A6E367;
+}
+
+.flamingo-orange {
+    background: #FBD89F;
+}
+
+.flamingoPersonRank{
+    display: flex;
+    flex-direction: row;
+    padding: 10px ;
+    border-radius: 100rem;
+    background: linear-gradient(90deg, #fff 50%, rgba(255, 255, 255, 0.5));
+    width: 230px;
+    height: 70px;
+    position: absolute;
+    right: 50%;
+    top: 200px;
+}
+
+.flamingoPersonRank__left>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100rem;
+}
+
+.flamingoPersonRank__right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.rank__start {
+    color: #F8E71C;
+}

@@ -1,0 +1,195 @@
+.GoSomeWhere{
+    padding: 120px;
+}
+.GoSomeWhereContainer {
+    background-color: rgb(240,240,240);
+    padding: 80px;
+    border-radius: 20px;
+}
+
+.GoSomeWhereContainer h1 {
+    font-size: 45px;
+    opacity: 0.8;
+   
+    max-width: 700px;
+}
+
+.GoSomeWhereContainer>p {
+    font-size: 25px;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+.goSomeWhere__filterContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 75px;
+    line-height: 50px;
+}
+
+
+.goSomeWhere__filter__left {
+    display: flex;
+
+}
+
+.goSomeWhere__filter__left>div {
+    margin-right: 35px;
+}
+
+.goSomeWhere__filter__right {
+
+}
+
+.filter__right__item {
+    width: 250px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    border: 2px solid rgba(214, 214, 214, 0.9);
+}
+
+.filter__right__item>i {
+    border: 2px solid rgb(230,230,230);
+border-radius: 100rem;
+height: 30px;
+width: 30px;
+line-height: 30px;
+text-align: center;
+cursor: pointer;
+}
+
+.filter__right__item-active {
+
+}
+
+.goSomeWhere__cardContainer {
+    margin-top: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.goSomeWhere__card:hover .name {
+    color: dodgerblue;
+}
+.goSomeWhere__card:hover .goSomeWhere__card__image {
+    transform: scale(1.1);
+}
+
+.goSomeWhere__card {
+    height: 350px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    margin-bottom: calc(100% - 1080px);
+
+}
+.goSomeWhere__card__imageContainer {
+    height: 200px;
+    width: 100%;
+    overflow:hidden;
+}
+.goSomeWhere__card__image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 1000ms;
+    z-index: 1;
+}
+
+.goSomeWhere__card__info {
+    padding: 15px;
+    height: 150px;
+    z-index: 2;
+}
+
+.goSomeWhere__card__info__top,.goSomeWhere__card__info__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.goSomeWhere__card__info__top__left .name {
+    font-weight: 600;
+    font-size: 18px;
+    transition: 300ms;
+}
+
+.goSomeWhere__card__info__top__left .place {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+.goSomeWhere__card__info__top__right {
+    margin-left: 16px;
+    padding: 6px 8px;
+    box-shadow: inset 0 0 0 2px #58C27D;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #58C27D;
+    
+}
+
+.horizontalLine {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 15px 0;
+}
+
+.goSomeWhere__card__info__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.goSomeWhere__card__info__bottom__left {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.goSomeWhere__card__info__bottom__right {
+    font-weight: 600;
+}
+
+.cardStart {
+    color: rgb(245, 245, 153);
+}
+
+.goSomeWhere__bottomBtnContainer {
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.goSomeWhere__bottomBtn { 
+    text-align: center;
+    width: 100px;
+    border : 2px solid rgb(230,230,230,0.7);
+    border-radius: 100rem;
+    padding:  7px 10px ;
+    transition: 300ms;
+
+}
+.goSomeWhere__bottomBtn:hover {
+    background-color: rgb(35,35,35,0.9);
+    color: #fff;
+    border: 2px solid  rgb(35,35,35,0.8);
+    cursor: pointer;
+}

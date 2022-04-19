@@ -1,0 +1,65 @@
+.HowItWork {
+    padding: 50px 200px 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(252,252,252);
+    align-items: center;
+    position: relative ;
+}
+
+.HowItWork h1 {
+    font-size: 45px;
+    opacity: 0.8;
+   
+    max-width: 700px;
+}
+
+.HowItWork>p {
+    font-size: 25px;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+.howItWorkItemsContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 10;
+    padding-top: 50px;
+}
+
+.howItWorkItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.howItWorkItem>img {
+    height: 250px;
+    width: 250px;
+}
+
+.howItWorkBackground {
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    z-index: -1;
+}
+.howItWorkBackground>svg {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+}
+.howItWorkItem_Title {
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0.9;
+}
+.howItWorkItem_Desc {
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 20px;
+    font-size: 14px;
+    width: 80%;
+}

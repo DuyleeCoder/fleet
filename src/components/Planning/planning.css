@@ -1,0 +1,73 @@
+.Planning {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 200px;
+    height: 800px;
+}
+
+.planning__left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.planning__miniHeading {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+.planning__heading {
+    font-weight: 700;
+    font-size: 40px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+
+}
+
+.planning__desc {
+    font-size: 16px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+.planning__searchContainer {
+    
+}
+
+
+
+.planning__search {
+    outline: none;
+    border:none;
+    height: 45px;
+    width: 250px;
+    border: 2px solid #cccccc;
+    padding: 0 50px 0 20px;
+    border-radius: 100rem;
+}
+
+.planning__searchBtn {
+    background-color: royalblue;
+    color: #fff;
+    border-radius: 100rem;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    transform: translateX(-125%) translateY(4%);
+}
+
+
+
+.planning__right {
+    flex: 2;
+    background: url("https://ui8-fleet-html.herokuapp.com/img/content/planning-pic-1.png") ;
+    background-position:top;
+    background-position-X:100%;
+    background-repeat: no-repeat;
+}

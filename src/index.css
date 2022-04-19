@@ -1,0 +1,17 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+
+}
+
+
+html {
+  overflow-x: hidden;
+}
+
+:root {
+    --paddingFullsize : 50px 200px 0 200px;
+}

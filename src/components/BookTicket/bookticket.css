@@ -1,0 +1,24 @@
+
+.BookTicket { 
+    padding: 50px 120px  0 120px;
+}
+.ticket__headerContainer{
+    padding: 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ticket__headerContainer__left p {
+    font-size: 25px;
+    opacity: 0.6;
+}
+.ticket__headerContainer__left h1 {
+    font-size: 45px;
+    opacity: 0.8;   
+    font-weight: 700;
+}
+
+.ticket__bookBtn {
+    
+}

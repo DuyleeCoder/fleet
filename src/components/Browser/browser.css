@@ -1,0 +1,61 @@
+.Browser {
+    padding: 50px 200px 0 200px;
+}
+
+.Browser>p{
+    font-size: 25px;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+.browser__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.browser__header__h1 {
+    font-size: 45px;
+    opacity: 0.8;   
+    max-width: 700px;
+}
+
+
+.browser__sliderContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.browser__sliderCard {
+    height: 300px;
+    width: 23%;
+    /* background-color: royalblue; */
+}
+
+.browser__cardImage {
+    height: 230px;
+    border-radius: 20px;
+overflow:hidden;
+}
+.browser__cardImage>img {
+    height: 100%;
+    width: 100%;
+    transition: 1000ms;
+    cursor: pointer;
+}
+.browser__cardImage>img:hover {
+    transform: scale(1.1);
+    
+}
+
+.browser__cardInfo>p {
+    margin-top: 10px;
+}
+.browser__cardName {
+    font-weight: 600;
+    opacity: 0.9;
+}
+.browser__cardCount {
+    opacity: 0.6;
+}
